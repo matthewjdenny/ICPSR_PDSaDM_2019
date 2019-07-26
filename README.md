@@ -43,48 +43,48 @@ To make things easier, I have created a video tutorial that will walk you throug
 
 1. **9:00-10:00** We will go over high level materials including downloading and installing R, setting up RStudio and Github, and good project management habits. Follow-up materials: [**[R Power User Tutorial]**](http://www.mjdenny.com/Data_Science_Tools.html) 
 2. **10:00-10:10** Break
-3. **10:10-12:00** Introduction to R programming. [**[Basic R Programming]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Basic_R_Programming.R), 
-[**[Basic Datastructures]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Basic_Datastructures.R)
+3. **10:10-12:00** Introduction to R programming. [**[Basic R Programming]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Basic_R_Programming.R), 
+[**[Basic Datastructures]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Basic_Datastructures.R)
 4. **12:00-1:00** Lunch
-5. **1:00-3:00** More R programming: [**[Looping and Conditionals]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Looping_and_Conditional_Statements.R), [**[Data I/O and R Packages]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Data_IO_and_Packages.R)
+5. **1:00-3:00** More R programming: [**[Looping and Conditionals]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Looping_and_Conditional_Statements.R), [**[Data I/O and R Packages]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Data_IO_and_Packages.R)
 6. **3:00-3:10** Break.
-7. **3:10-4:00** Functions  [**[Functions]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Functions.R), [**[Additional Functions]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Additional_Functions.R).
+7. **3:10-4:40** Functions  [**[Functions]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Functions.R), [**[Additional Functions]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Additional_Functions.R).
 8. Overview of materials for today: [**[R Tutorial]**](http://www.mjdenny.com/R_Tutorial.html) 
-9. **Homework** First Homework assignment. [**[Script Here]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/R_Programming_Assignment_1.R)
+9. **Homework** First Homework assignment. [**[Script Here]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/R_Programming_Assignment_1.R)
 
 
 #### Tuesday 7/30/19
 
-1. **9:00-10:00** Functions  [**[Functions]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Functions.R), [**[Additional Functions]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Additional_Functions.R).
+1. **9:00-10:00** Functions  [**[Functions]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Functions.R), [**[Additional Functions]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Additional_Functions.R).
 2. **10:00-10:10** Break.
-3. **10:10-12:00** Managing multiple datasets. [**[Script]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Managing_Multiple_Datasets.R) 
+3. **10:10-12:00** Managing multiple datasets. [**[Script]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Managing_Multiple_Datasets.R) 
 4. **12:00-1:00** Lunch  
-5. **1:00-2:00** Mini unit: basic plotting  [**[Script Here]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Basic_Plotting.R).
-6. **2:00-3:00** Mini unit: producing publication quality plots and graphics (As time permits)  [**[Script Here]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Publication_Quality_Plots.R).
+5. **1:00-2:00** Mini unit: basic plotting  [**[Script Here]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Basic_Plotting.R).
+6. **2:00-3:00** Mini unit: producing publication quality plots and graphics (As time permits)  [**[Script Here]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Publication_Quality_Plots.R).
 7. **3:00-3:10** Break.
-8. **3:10-4:00** Mini unit: social network data management (time permitting) [**[Script]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Preparing_Network_Data_in_R.R), [**[Online Tutorial]**](http://www.mjdenny.com/Preparing_Network_Data_In_R.html) 
-9. **Homework** Second Homework assignment. [**[Script Here]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Cleaning_Data_Assignment_2.R)
+8. **3:10-5:00** Mini unit: social network data management (time permitting) [**[Script]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Preparing_Network_Data_in_R.R), [**[Online Tutorial]**](http://www.mjdenny.com/Preparing_Network_Data_In_R.html) 
+9. **Homework** Second Homework assignment. [**[Script Here]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Cleaning_Data_Assignment_2.R)
 
 #### Wednesday 7/31/19
 
-1. **9:00-11:00** Introduction to text processing in R [**[Script]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Working_with_Text_Data.R), [**[Tutorial]**](http://www.mjdenny.com/Text_Processing_In_R.html).  
+1. **9:00-11:00** Introduction to text processing in R [**[Script]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Working_with_Text_Data.R), [**[Tutorial]**](http://www.mjdenny.com/Text_Processing_In_R.html).  
 2. **11:00-11:10** Break
-3. **11:10-12:00** Basic web scraping in R:  [**[Script]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Basic_Web_Scraping.R). 
+3. **11:10-12:00** Basic web scraping in R:  [**[Script]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Basic_Web_Scraping.R). 
 4. **12:00-1:00** Lunch
-5. **1:00-2:00** Basic web scraping in R:  [**[Script]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Basic_Web_Scraping.R). 
+5. **1:00-2:00** Basic web scraping in R:  [**[Script]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Basic_Web_Scraping.R). 
 6. **2:00-2:10** Break
-7. **2:10-4:00** Advanced web scraping [**[Script]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Advanced_Web_Scraping.R)
+7. **2:10-4:30** Advanced web scraping [**[Script]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Advanced_Web_Scraping.R)
 8. Time and interest permitting, we can go over some advanced topics including dealing with XML data.
 
 #### Thursday 8/1/19
 
-1. **9:00-11:00** Scraping Twitter:  [**[Script]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Scraping_Twitter.R), [**[Helpful Tutorial]**](https://github.com/SMAPPNYU/smappR), [**[StreamR Github]**](https://github.com/pablobarbera/streamR).
+1. **9:00-11:00** Scraping Twitter:  [**[Script]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Scraping_Twitter.R), [**[Helpful Tutorial]**](https://github.com/SMAPPNYU/smappR), [**[StreamR Github]**](https://github.com/pablobarbera/streamR).
 2. **11:00-11:10** Break
-3. **11:10-12:00** Text processing using Quanteda. [**[Script]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Text_Processing_with_Quanteda.R)
+3. **11:10-12:00** Text processing using Quanteda. [**[Script]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Text_Processing_with_Quanteda.R)
 4. **12:00-1:00** Lunch
-5. **1:00-2:00** Text processing using Quanteda. [**[Script]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Text_Processing_with_Quanteda.R) 
+5. **1:00-2:00** Text processing using Quanteda. [**[Script]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Text_Processing_with_Quanteda.R) 
 6. **2:00-2:10** Break.
-7. **2:10-4:00** Synthesis exercise: [**[Script]**](https://github.com/matthewjdenny/ISSR_Data_Management_Web_Scraping_2018/blob/master/Scripts/Scraping_Example.R).
+7. **2:10-4:30** Synthesis exercise: [**[Script]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Scraping_Example.R).
 8. Time and interest permitting, we can cover advanced topics in text processing.
 
 ## Resources
