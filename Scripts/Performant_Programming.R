@@ -347,7 +347,7 @@ preprocess_parallel <- function(filenames,
 }
 
 # Lets try it out!
-setwd("~/Desktop/Data")
+setwd("~/Box Sync/ICPSR_PDSaDM_2019/Data/Senate_Cosponsorship")
 filenames <- list.files()
 
 # Time the standard way of doing it:

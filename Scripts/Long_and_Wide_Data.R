@@ -4,7 +4,7 @@
 rm(list = ls())
 
 # Set your working directory:
-setwd("~/Desktop")
+setwd("~/Box Sync/ICPSR_PDSaDM_2019/Data")
 
 # Load in the example data in long format:
 load("Long_Wide_Data.RData")

@@ -7,7 +7,7 @@ rm(list = ls())
 
 # Set your working directory to the "Senate_Cosponsorship" subdirectory of the
 # "Data" directory associated with this workshop. For me, this looks like:
-setwd("~/Box Sync/ISSR_Data_Management_Web_Scraping_2018/Data/Senate_Cosponsorship")
+setwd("~/Box Sync/ICPSR_PDSaDM_2019/Data/Senate_Cosponsorship")
 
 # We are going to be looking at a dataset that comprises legislative
 # cosponsorship activity for 11 sessions of the U.S. Senate (22 years). It is

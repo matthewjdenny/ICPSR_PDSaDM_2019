@@ -2,7 +2,7 @@
 
 # Preliminaries
 rm(list = ls())
-setwd("~/Desktop")
+setwd("~/Box Sync/ICPSR_PDSaDM_2019/Data")
 
 # Read in the data
 library(rio)
