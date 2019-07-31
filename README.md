@@ -91,6 +91,7 @@ To make things easier, I have created a video tutorial that will walk you throug
 
 ## Resources
 
+* A great resource for cheat sheets for various things we cover in this course is the [RStudio cheat sheet page](https://www.rstudio.com/resources/cheatsheets).
 * A nice place to start learning R interactively is [Swirl](http://swirlstats.com/).
 * Quick-R has a bunch of easy to read tutorials for doing all sorts of basic things -- <http://www.statmethods.net/>.
 * Hadley Wickham wrote a book that covers a bunch of advanced functionality in R, titled **Advanced R** -- which is available online for free here -- <http://adv-r.had.co.nz/>.
