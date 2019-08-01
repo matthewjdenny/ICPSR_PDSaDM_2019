@@ -71,7 +71,6 @@ grades <- c("A","B","C","A","C","F","D","B","B","A")
 class <- c(rep(0,times = 5),rep(1,times = 5))
 free_lunch <- rep(TRUE,times = 10)
 
-
 # Now we can put the vectors we created above together to make a 'data.frame',
 # one of the most commonly used data types in R. Data frames very useful because
 # they can hold multiple types of values (e.g. text and numbers), and because
@@ -86,6 +85,10 @@ my_data <- data.frame(student_id,
                       class,
                       free_lunch,
                       stringsAsFactors = FALSE)
+
+# we can also add columns to the data using the $ operator:
+my_data$names <- c('susan','ted','bill','amy','matt','john','xyz','abc','w',
+                   'jimbob')
 
 # We can set column names if we like:
 colnames(my_data) <- c("Student_ID", "Grades","Class","Free_Lunch")
@@ -116,7 +119,7 @@ my_list <- list(num = 10,
 my_list <- list()
 
 # Now lets add stuff to our list!
-my_list$num <- 10
+my_list$current_temp <- 10
 my_list$dat <- my_data
 my_list$cool_car <- "Honda Civic"
 
@@ -157,7 +160,8 @@ new_list <- my_list[1:2]
 # The 'which()' function lets us identify observations that meet a certain
 # criteria. This example also introduces the '$' operator which lets us access a
 # variable in a data frame by name:
-which(my_data$Grades == "A" & my_data$Class == 1)
+which((my_data$Grades == "B" |my_data$Grades == "C") & my_data$Student_ID > 3)
+
 
 # Now we can create a new dataset that only includes A or B students by saving
 # the indexes of the A and B students and then using them to extract a subset of

@@ -16,7 +16,7 @@ require(quanteda)
 
 
 # set working directory (you will need to change this for your computer)
-setwd("~/Box Sync/ISSR_Data_Management_Web_Scraping_2018/Data/Bill_Text")
+setwd("~/Box Sync/ICPSR_PDSaDM_2019/Data/Bill_Text")
 
 # lets start with the basics of reading in some documents and generating a
 # document term matrix:
@@ -153,3 +153,4 @@ doc_term_matrix
 
 # What are the most frequent terms?
 topfeatures(doc_term_matrix,40)
+

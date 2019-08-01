@@ -21,7 +21,7 @@ lower_string <- tolower(my_string)
 lower_string
 
 # We can also combine strings using the paste() command:
-second_string <- "Wow, two sentences."
+second_string <- "Wow, two two two sentences."
 my_string <- paste(my_string,second_string,sep = " ")
 my_string
 
@@ -37,7 +37,10 @@ my_string_vector
 #
 # Regular expressions describe a string pattern
 #     This could just be a string of characters
-grep("two",my_string_vector)
+grep("string",
+     my_string_vector,
+     value = TRUE,
+     ignore.case = TRUE)
 
 # Some characters have special meanings in regular expressions
 #       To search for the question mark "?", you need to "escape" it
@@ -53,7 +56,7 @@ stringr::str_replace_all(my_string, "e","___")
 
 # It is also possible to pull out all substrings matching a given string
 # argument.
-stringr::str_extract_all(my_string, "en")[[1]] # both from "sentences"
+stringr::str_extract_all(my_string, "with")[[1]] # both from "sentences"
 
 # This gets much more useful when you can generalize the patterns
 # You will notice here that the "[0-9]+" argument does not look like
@@ -173,7 +176,7 @@ item_strings <- stringr::str_extract_all(one_line,"\\(\\d\\).+?\\.")[[1]]
 item_strings
 
 # Can use str_match and parentheses to identify the stuff you want
-for_strings <- stringr::str_match(item_strings,"For (.+), \\$");
+for_strings <- stringr::str_match(item_strings,"For (.+), \\$")
 for_strings
 # We want the second column there
 for_strings <- for_strings[,2]

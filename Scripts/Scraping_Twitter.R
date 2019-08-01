@@ -64,7 +64,7 @@ setwd("~/Desktop")
 
 # Here we are going to use the filter function which uses dome sort of criteria
 # for determining which tweets should be saved.
-filterStream("tweets2.json", # name of file that we want to save tweets to.
+filterStream("tweets.json", # name of file that we want to save tweets to.
              track = c("Trump","POTUS"), # key terms to collect.
              timeout = 60, # amount of time to collect data in seconds.
              oauth = my_oauth) # your token!

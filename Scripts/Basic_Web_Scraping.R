@@ -121,7 +121,7 @@ get_google_scholar_results <- function(string,
 
 
 
-    # search for the 'Scholar</a><div id="gs_ab_md">' string which occurs
+    # search for the 'Scholar</a><div id=\\"gs_ab_md\\"><div class=\\"gs_ab_mdw\\">' string which occurs
     # uniquely right before google Scholar tells you how many results your
     # querry returned
     num_results <- str_split(page,'<div id=\\"gs_ab_md\\"><div class=\\"gs_ab_mdw\\">')[[1]][2]

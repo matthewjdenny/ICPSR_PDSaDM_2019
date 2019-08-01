@@ -123,7 +123,7 @@ netplot <- function(session,
     plot(net, vertex.col = color)
 
     # Wait for one second after plotting before moving on:
-    Sys.sleep(1)
+    Sys.sleep(2)
 
     # This function does not return anything.
 }

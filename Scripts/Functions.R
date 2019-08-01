@@ -137,7 +137,7 @@ template <- function (argument1,
 
     # We can only return one object, so a list can help work around this
     # limitation:
-    return (to_return)
+    return(to_return)
 
 }
 

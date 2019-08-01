@@ -76,7 +76,8 @@ library(stringr)
 addition <- data.frame(Group_Member_1 = rep(0, nrow(Messy_Data)),
                        Group_Member_2 = rep(0, nrow(Messy_Data)),
                        Group_Member_3 = rep(0, nrow(Messy_Data)),
-                       Group_Member_4 = rep(0, nrow(Messy_Data)))
+                       Group_Member_4 = rep(0, nrow(Messy_Data)),
+                       stringsAsFactors = FALSE)
 
 # Now we will want to split up the data based on the Group variable, since the
 # Baseline group does not record some columns.

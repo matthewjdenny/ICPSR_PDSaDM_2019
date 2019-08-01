@@ -30,7 +30,7 @@ wide_data <- tidyr::spread(data = long_data,
                            key = Section,
                            value = Terms)
 
-# The column names are still knid of messed up (bad ordering), so lets fix them.
+# The column names are still kind of messed up (bad ordering), so lets fix them.
 # To do so, we need to put leading zeros before the 1 and 2 digit numbers. We
 # can write a more general function to do this for any similar situation, which
 # I do, below:
@@ -40,7 +40,7 @@ format_var_names <- function(numbers,
     numbers <- as.character(numbers)
     # get the maximum number of digits in the numbers
     max_digits <- max(nchar(numbers))
-    # loop over each nubmer and add leading zeros where necessary
+    # loop over each number and add leading zeros where necessary
     for (i in 1:length(numbers)) {
         # get the number of characters (digits) in the current number
         nc <- nchar(numbers[i])

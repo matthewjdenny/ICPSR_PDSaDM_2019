@@ -20,7 +20,7 @@ library(ggplot2)
 library(gridExtra)
 
 # set your working directory (for me, this looks like):
-setwd("~/Box Sync/ISSR_Data_Management_Web_Scraping_2018/Data")
+setwd("~/Box Sync/ICPSR_PDSaDM_2019/Data")
 # Lets load in some "data" we will use in this tutorial:
 load("LaCour_Data.Rdata")
 load("Influence_Data.Rdata")
@@ -71,6 +71,7 @@ UMASS_BROWN <- rgb(148,121,93,195,maxColorValue = 255)
 # Lets try to fill in some additional parameters. We can start to do this by
 # looking at the documentation for 'hist()' by typing in:
 ?hist()
+
 
 # Now give a couple of additional arguments a try:
 hist(lacour.therm.study1,
@@ -132,7 +133,7 @@ g1 <- ggplot(data , # the name of the data.frame we are using
     xlab("Session of Congress") + # the x label for the graph
     scale_x_continuous(name = "Session of Congress",
                        breaks = 1:12, # where to put x-axis tick marks
-                       minor_breaks = waiver(), # no minor tick marks
+                       minor_breaks = NULL, # no minor tick marks
                        labels = 97:108) # custom labels
 
 # Now we make similar plots (with a different y value) for two other measures:
@@ -142,7 +143,7 @@ g2 <- ggplot(data , aes(x = Congress, y = Connectedness)) +
     xlab("Session of Congress") +
     scale_x_continuous(name = "Session of Congress",
                        breaks = 1:12,
-                       minor_breaks = waiver(),
+                       minor_breaks = NULL,
                        labels = 97:108)
 
 g3 <- ggplot(data , aes(x = Congress, y = Influence)) +
@@ -151,7 +152,7 @@ g3 <- ggplot(data , aes(x = Congress, y = Influence)) +
     xlab("Session of Congress") +
     scale_x_continuous(name = "Session of Congress",
                        breaks = 1:12,
-                       minor_breaks = waiver(),
+                       minor_breaks = NULL,
                        labels = 97:108)
 
 # Finally, we can generate the plot and save it to a .pdf:
@@ -176,7 +177,7 @@ i <- 97
 cur_data <- data2[which(data2$Congress == i),]
 
 # Fit a linear model:
-fit <- lm(formula = "Connectedness ~ Seniority + NOMINATE + NOMINATE_SQ +  In_Majority + Committee_Chair",
+fit <- lm(formula = Connectedness ~ Seniority + NOMINATE + NOMINATE_SQ +  In_Majority + Committee_Chair,
           data = cur_data )
 
 # We can look at the output of this model using the 'summary()' function:
