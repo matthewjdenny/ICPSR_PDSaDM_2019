@@ -69,7 +69,7 @@ To make things easier, I have created a video tutorial that will walk you throug
 
 1. **9:00-10:00** Mini unit: producing publication quality plots and graphics (As time permits)  [**[Script Here]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Publication_Quality_Plots.R).
 2. **10:00-10:10** Break
-3. **10:00-12:00** Introduction to text processing in R [**[Script]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Working_with_Text_Data.R), [**[Tutorial]**](http://www.mjdenny.com/Text_Processing_In_R.html).  
+3. **10:00-12:00** Introduction to text processing in R [**[Script]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Working_with_Text_Data.R), [**[Tutorial]**](http://www.mjdenny.com/Text_Processing_In_R.html), [**[RegEx Cheat Cheet]**](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
 4. **12:00-1:00** Lunch
 5. **1:00-3:00** Basic web scraping in R:  [**[Script]**](https://github.com/matthewjdenny/ICPSR_PDSaDM_2019/blob/master/Scripts/Basic_Web_Scraping.R). 
 6. **3:00-3:10** Break
@@ -91,6 +91,7 @@ To make things easier, I have created a video tutorial that will walk you throug
 
 ## Resources
 
+* A great resource for cheat sheets for various things we cover in this course is the [RStudio cheat sheet page](https://www.rstudio.com/resources/cheatsheets).
 * A nice place to start learning R interactively is [Swirl](http://swirlstats.com/).
 * Quick-R has a bunch of easy to read tutorials for doing all sorts of basic things -- <http://www.statmethods.net/>.
 * Hadley Wickham wrote a book that covers a bunch of advanced functionality in R, titled **Advanced R** -- which is available online for free here -- <http://adv-r.had.co.nz/>.
